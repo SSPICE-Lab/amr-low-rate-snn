@@ -24,3 +24,9 @@ The datasets used are the RadioML2018.01A dataset and the RadioML2016.10A datase
 ## Usage
 
 The design hyperparameter sweep mentioned in the paper is implemented in `rml18_hyperparam_search.py`. The optimal hyperparameters are then used in `results_rml18_seed_loop.py` and `results_rml16_seed_loop.py` to obtain the results reported in the paper.
+
+All the code is written in Python and can be run using the following command:
+
+```bash
+python <filename>.py
+```
