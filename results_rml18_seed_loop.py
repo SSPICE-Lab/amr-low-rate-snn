@@ -2,7 +2,7 @@ import numpy as np
 from rich.console import Console
 from rich.table import Table
 
-from main_spiking_constellation import main
+from main_spiking_rml18 import main
 
 GPU_ID = 0
 ADC_RESOLUTION = 4
