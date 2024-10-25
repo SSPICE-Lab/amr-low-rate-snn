@@ -60,6 +60,5 @@ class Conv2d(torch.nn.Module):
         outs = self.core_layer(inputs.reshape(-1, *inputs.shape[-3:]))
         outs = outs.reshape(*inputs.shape[:-3], -1, *outs.shape[-2:])
         outs = outs.permute(0, 2, 3, 4, 1)
-        print(f"Conv: {outs.min()}, {outs.max()}, {outs.mean()}, {outs.std()}")
 
         return self.neuron(outs, self.threshold, self.scaling, self.mult_factor, self.alpha)

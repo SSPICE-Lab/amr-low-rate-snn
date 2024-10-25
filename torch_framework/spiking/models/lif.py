@@ -26,8 +26,6 @@ class LeakyIandF(torch.autograd.Function):
             prev_currents = input_currents[..., step]
             prev_currents[output_spikes[..., step]] = 0
 
-        print(f"LeakyIandF: {membrane_potentials.min()}, {membrane_potentials.max()}, {membrane_potentials.mean()}, {membrane_potentials.std()}")
-
         ctx.save_for_backward(membrane_potentials, output_spikes)
 
         return output_spikes.float()

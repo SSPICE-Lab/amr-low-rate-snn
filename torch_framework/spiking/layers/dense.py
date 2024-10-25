@@ -45,6 +45,5 @@ class Dense(torch.nn.Module):
         outs = self.core_layer(inputs.reshape(-1, inputs.shape[-1]))
         outs = outs.reshape(*inputs.shape[:-1], -1)
         outs = outs.permute(0, 2, 1)
-        print(f"Dense: {outs.min()}, {outs.max()}, {outs.mean()}, {outs.std()}")
 
         return self.neuron(outs, self.threshold, self.scaling, self.mult_factor, self.alpha)
