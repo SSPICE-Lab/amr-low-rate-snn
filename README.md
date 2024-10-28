@@ -1,6 +1,6 @@
-# Towards Hardware-Efficient Modulation Recognition using Low-Rate Spiking Neural Networks
+# High Accuracy RF Modulation Recognition using Low-Dimensional Encoder-based SNN
 
-This repository contains the code for the paper "Towards Hardware-Efficient Modulation Recognition using Low-Rate Spiking Neural Networks," by [Sai Sanjeet](https://scholar.google.com/citations?user=vMHDxGIAAAAJ) and [Bibhu Datta Sahoo](https://scholar.google.com/citations?user=AuzF4ScAAAAJ).
+This repository contains the code for the paper "High Accuracy RF Modulation Recognition using Low-Dimensional Encoder-based SNN" by [Sai Sanjeet](https://scholar.google.com/citations?user=vMHDxGIAAAAJ) and [Bibhu Datta Sahoo](https://scholar.google.com/citations?user=AuzF4ScAAAAJ).
 
 If you have any questions, please feel free to reach out to the authors. email: syerragu@buffalo.edu
 
